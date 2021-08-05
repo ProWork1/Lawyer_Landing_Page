@@ -89,6 +89,10 @@ function js() {
     .pipe(dest(path.build.js))
     .pipe(browsersync.stream());
 }
+function fonts() {
+  return src(path.src.fonts)
+    .pipe(dest(path.build.fonts))
+}
 
 //JavaScript файлов
 
@@ -173,7 +177,7 @@ function css() {
 }
 //sass
 
-const build = gulp.series(clean, gulp.parallel(js, css, html, images));
+const build = gulp.series(clean, gulp.parallel(js, css, html, images, fonts));
 const watch = gulp.parallel(build, watchFiles, browserSync);
 
 
