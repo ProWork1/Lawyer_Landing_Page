@@ -1,154 +1,154 @@
 .header {
-  background-color: #f9f8f9;
-  font-family: "PlusJakartaSans", sans-serif;
-  .title,
-  .des,
-  .getStarted {
-    transition: 0.3s;
-  }
-  .title {
-    font-family: "Playfair Display", serif;
-    margin-top: 20%;
-    color: #094b72;
-    font-size: 75px;
-    line-height: 120%;
-    font-weight: bold;
-    letter-spacing: 0.02em;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .des {
-    font-family: "PlusJakartaSans", sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 150%;
-    letter-spacing: 0.5px;
-    color: #4f4f4f;
-    margin-top: 30px;
-  }
-  .getStarted {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 140.5%;
-    letter-spacing: 0.08em;
-    color: #f9f8f9;
-    background-color: #094b72;
-    margin-top: 30px;
-    padding: 18px 30px;
-    border-radius: 8px;
-  }
-  .companies {
-    padding-bottom: 32px;
-    .text {
-      margin-top: 85px;
-      font-size: 22px;
-      line-height: 140.5%;
-      letter-spacing: 0.04em;
-      color: #8b8c8c;
-      margin-bottom: 25px;
+    background-color: #f9f8f9;
+    font-family: 'PlusJakartaSans', sans-serif;
+    .title,
+    .des,
+    .getStarted {
+        transition: 0.3s;
     }
-    .companiesLogs {
-      margin-bottom: 22px;
-      img {
-        margin-right: 20px;
-      }
-    }
-  }
-  .girl {
-    height: 100%;
-    width: 100%;
-    background: url("../img/lawyer-girl.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-  }
-}
-@media (max-width: 1199px) {
-  .header {
     .title {
-      font-size: 65px;
+        font-family: 'Playfair Display', serif;
+        margin-top: 20%;
+        color: #094b72;
+        font-size: 75px;
+        line-height: 120%;
+        font-weight: bold;
+        letter-spacing: 0.02em;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     }
     .des {
-      br {
-        display: none;
-      }
-    }
-    .girl {
-      background-position: center bottom;
-    }
-  }
-}
-@media (max-width: 991px) {
-  .header {
-    .companies {
-      display: flex;
-      .desktop {
-        width: 70%;
-      }
-      .mobil {
-        width: 30%;
-      }
-    }
-    .noneForMobil {
-      display: none;
-    }
-  }
-}
-@media (max-width: 767px) {
-  .header {
-    .title {
-      font-size: 60px;
-    }
-    .companies {
-      .text {
-        font-size: 20px;
-      }
-    }
-  }
-}
-@media (max-width: 515px) {
-  .header {
-    .title {
-      font-size: 50px;
-    }
-    .des {
-      font-size: 20px;
+        font-family: 'PlusJakartaSans', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #4f4f4f;
+        margin-top: 30px;
     }
     .getStarted {
-      padding: 13px 25px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 140.5%;
+        letter-spacing: 0.08em;
+        color: #f9f8f9;
+        background-color: #094b72;
+        margin-top: 30px;
+        padding: 18px 30px;
+        border-radius: 8px;
     }
     .companies {
-      display: block;
-      .desktop {
-        width: 100%;
-      }
-      .mobil {
-        display: none;
-      }
-      .companiesLogs {
-        display: flex;
-        justify-content: space-around;
-      }
-      .text {
-        text-align: center;
-      }
+        padding-bottom: 32px;
+        .text {
+            margin-top: 85px;
+            font-size: 22px;
+            line-height: 140.5%;
+            letter-spacing: 0.04em;
+            color: #8b8c8c;
+            margin-bottom: 25px;
+        }
+        .companiesLogs {
+            margin-bottom: 22px;
+            img {
+                margin-right: 20px;
+            }
+        }
     }
-  }
+    .girl {
+        height: 100%;
+        width: 100%;
+        background: url('../img/lawyer-girl.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+}
+@media (max-width: 1199px) {
+    .header {
+        .title {
+            font-size: 65px;
+        }
+        .des {
+            br {
+                display: none;
+            }
+        }
+        .girl {
+            background-position: center bottom;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .header {
+        .companies {
+            display: flex;
+            .desktop {
+                width: 70%;
+            }
+            .mobil {
+                width: 30%;
+            }
+        }
+        .noneForMobil {
+            display: none;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        .title {
+            font-size: 60px;
+        }
+        .companies {
+            .text {
+                font-size: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 515px) {
+    .header {
+        .title {
+            font-size: 50px;
+        }
+        .des {
+            font-size: 20px;
+        }
+        .getStarted {
+            padding: 13px 25px;
+        }
+        .companies {
+            display: block;
+            .desktop {
+                width: 100%;
+            }
+            .mobil {
+                display: none;
+            }
+            .companiesLogs {
+                display: flex;
+                justify-content: space-around;
+            }
+            .text {
+                text-align: center;
+            }
+        }
+    }
 }
 @media (max-width: 433px) {
-  .header {
-    .title {
-      font-size: 42px;
+    .header {
+        .title {
+            font-size: 42px;
+        }
     }
-  }
 }
 @media (max-width: 367px) {
-  .header {
-    .title {
-      font-size: 35px;
+    .header {
+        .title {
+            font-size: 35px;
+        }
+        .des {
+            font-size: 18px;
+            margin-top: 25px;
+        }
     }
-    .des {
-      font-size: 18px;
-      margin-top: 25px;
-    }
-  }
 }

@@ -1,134 +1,134 @@
 .results {
-  background-color: #1282a6;
-  background-image: url("../img/Patterns.svg");
-  background-size: cover;
-  background-position: center center;
-  padding: 50px 0;
-  color: #ffffff;
-  text-align: center;
-  font-family: "Poppins", serif;
-  .title,
-  .dec {
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 8px 0px;
-    font-feature-settings: "salt" on, "liga" off;
-  }
-  .title {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 64px;
-    /* identical to box height, or 133% */
-    letter-spacing: 0.005em;
-    margin-top: 0;
-  }
-  .des {
-    font-size: 18px;
-    line-height: 32px;
-    letter-spacing: 0.5px;
-    order: 1;
-    align-self: stretch;
-  }
-  .numbers {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    .box {
-      padding: 0 15px;
-      &:nth-child(2) {
-        border-left: 1px solid rgba(255, 255, 255, 0.4);
-        border-right: 1px solid rgba(255, 255, 255, 0.4);
-        padding: 0 30px;
-      }
-      .num,
-      .des {
+    background-color: #1282a6;
+    background-image: url('../img/Patterns.svg');
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Poppins', serif;
+    .title,
+    .dec {
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 0px;
-        font-feature-settings: "salt" on, "liga" off;
-      }
-      .num {
-        padding: 5px 0;
-        font-weight: 800;
+        margin: 8px 0px;
+        font-feature-settings: 'salt' on, 'liga' off;
+    }
+    .title {
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
         font-size: 48px;
         line-height: 64px;
         /* identical to box height, or 133% */
-      }
-      .numDes {
-        font-size: 18px;
-        line-height: 32px;
-        /* identical to box height, or 178% */
-        letter-spacing: 0.003em;
-        order: 1;
-      }
-    }
-  }
-}
-@media (max-width: 767px) {
-  .results {
-    .title {
-      font-size: 42px;
-    }
-    .numbers {
-      .box {
-        &:nth-child(2) {
-          padding: 0 15px;
-        }
-        .numDes {
-          line-height: 28px;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 506px) {
-  .results {
-    .title {
-      font-size: 35px;
+        letter-spacing: 0.005em;
+        margin-top: 0;
     }
     .des {
-      font-size: 16px;
-      line-height: 30px;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        order: 1;
+        align-self: stretch;
     }
     .numbers {
-      .box {
-        .num {
-          font-size: 45px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        .box {
+            padding: 0 15px;
+            &:nth-child(2) {
+                border-left: 1px solid rgba(255, 255, 255, 0.4);
+                border-right: 1px solid rgba(255, 255, 255, 0.4);
+                padding: 0 30px;
+            }
+            .num,
+            .des {
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 0px 0px;
+                font-feature-settings: 'salt' on, 'liga' off;
+            }
+            .num {
+                padding: 5px 0;
+                font-weight: 800;
+                font-size: 48px;
+                line-height: 64px;
+                /* identical to box height, or 133% */
+            }
+            .numDes {
+                font-size: 18px;
+                line-height: 32px;
+                /* identical to box height, or 178% */
+                letter-spacing: 0.003em;
+                order: 1;
+            }
         }
-        .numDes {
-          line-height: 25px;
-          font-size: 16px;
-        }
-      }
     }
-  }
+}
+@media (max-width: 767px) {
+    .results {
+        .title {
+            font-size: 42px;
+        }
+        .numbers {
+            .box {
+                &:nth-child(2) {
+                    padding: 0 15px;
+                }
+                .numDes {
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 506px) {
+    .results {
+        .title {
+            font-size: 35px;
+        }
+        .des {
+            font-size: 16px;
+            line-height: 30px;
+        }
+        .numbers {
+            .box {
+                .num {
+                    font-size: 45px;
+                }
+                .numDes {
+                    line-height: 25px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 425px) {
-  .results {
-    .title {
-      line-height: 45px;
-      font-size: 30px;
+    .results {
+        .title {
+            line-height: 45px;
+            font-size: 30px;
+        }
     }
-  }
 }
 @media (max-width: 368px) {
-  .results {
-    .title {
-      font-size: 26px;
-    }
-    .numbers {
-      .box {
-        .num {
-          font-size: 40px;
+    .results {
+        .title {
+            font-size: 26px;
         }
-        .numDes {
-          line-height: 20px;
-          font-size: 14px;
+        .numbers {
+            .box {
+                .num {
+                    font-size: 40px;
+                }
+                .numDes {
+                    line-height: 20px;
+                    font-size: 14px;
+                }
+            }
         }
-      }
     }
-  }
 }

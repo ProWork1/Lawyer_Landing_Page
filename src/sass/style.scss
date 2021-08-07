@@ -1,11 +1,12 @@
 @font-face {
-  font-family: "PlusJakartaSans";
-  src: url("../fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+    font-family: 'PlusJakartaSans';
+    src: url('../fonts/PlusJakartaSans-Regular.ttf') format('truetype');
 }
 
-@import "header";
-@import "aboutOrSection1";
-@import "resultsOrSection2";
-@import "clientOrSection3";
-@import "questionOrSection4";
-@import "footer";
+@import 'navbar.scss';
+@import 'header';
+@import 'aboutOrSection1';
+@import 'resultsOrSection2';
+@import 'clientOrSection3';
+@import 'questionOrSection4';
+@import 'footer';

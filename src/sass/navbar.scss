@@ -1,0 +1,17 @@
+#navbar {
+    .container {
+        .navbar {
+            .collapse {
+                justify-content: flex-end !important;
+                .navbar-nav {
+                    li {
+                        margin-right: 58px !important;
+                    }
+                }
+                .form-inline {
+                    margin-left: 64px !important;
+                }
+            }
+        }
+    }
+}
